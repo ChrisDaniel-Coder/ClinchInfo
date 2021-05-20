@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 1260px;
+	height: 161px;
+	background: url(img/nav.jpg); 
+	margin: 0 auto;
+	padding: 0;
+}
+div.content{
+	width: 1260px;
+	height: 580px;
+	/* border: solid 1px; */
+	margin: 0 auto;
+	text-align: center;
+}
+.search{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	font-size: 32px;
+	margin: 0 auto;
+	background: url(img/screw.png) no-repeat left;
+	padding-left: 30px;
+	margin-top: 25px;
+	font-family: 仿宋;
+	font-weight: 700;
+}
+aside{
+	width: 400px;
+	height: 580px;
+	border-right: 2px solid #888888; 
+	float: left;
+	background: #fffff7;
+}
+div.clinchInput{
+	width: 400px;
+	height: 180px;
+	/* border: 1px solid; */
+}
+div.clinchInput span{
+	display: inline-block;
+	/* margin: 0 auto; */
+	/* border: 1px solid; */
+	font-family: 仿宋;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 15px;
+}
+div.clinchInput input{
+	height: 24px;
+	font-size: 16px;
+	background: F8F8F8;
+}
+.btn{
+	margin-top: 10px;
+}
+.btn button{
+	height: 40px;
+	width: 80px;
+	margin: 10px;
+	font-size: 20px;
+	border: 1px solid #08aae5;
+	background: #08aae5;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+}
+div.hichlockInput{
+	width: 400px;
+	height: 310px;
+	/* border: 1px solid; */
+}
+div.hichlockInput span{
+	display: inline-block;
+	/* margin: 0 auto; */
+	/* border: 1px solid; */
+	font-family: 仿宋;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 15px;	
+}
+div.hichlockInput select,input{
+	height: 24px;
+	font-size: 16px;
+	background: F8F8F8;
+	width: 160px;
+}
+article{
+	/* border: 1px solid; */
+	width: 858px;
+	height: 580px;
+	float: right;
+}
+div.output{
+	width: 858px;
+	height: 580px;
+	/* border: 1px solid; */
+}
+
+div.output table{
+	width: 858px;
+	height: 580px;
+	background: #fffff7;
+	/* border: 1px solid; */
+}
+div.output th{
+	width: 400px;
+	height: 30px;
+	/* border: 1px solid; */
+	line-height: 30px;
+	font-size: 24px;
+	font-family: 仿宋;
+	font-weight: 700;
+	padding: 10px;
+}
+div.output td{
+	width: 400px;
+	height: 30px;
+	/* border: 1px solid; */
+	padding: 15px;
+	font-size: 24px;
+	background: url(img/td.jpg) no-repeat center;
+}
+footer{
+	text-align: center;
+}
+footer p{
+	line-height: 10px;
+}
